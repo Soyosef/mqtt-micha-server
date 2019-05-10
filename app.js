@@ -3,9 +3,9 @@
 /**
  * Module dependencies.
  */
+//const debug = require('debug')('nombredeapp:server');
 
 
-const debug = require('debug')('nombredeapp:server');
 const http = require('http');
 const socketIO = require('socket.io')
 var mqtt = require('mqtt')
